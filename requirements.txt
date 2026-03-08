@@ -1,0 +1,7 @@
+pandas
+faker
+langchain
+langchain-core
+langchain-openai
+streamlit
+plotly
