@@ -7,13 +7,13 @@
 ![Plotly](https://img.shields.io/badge/Visualization-Plotly-purple)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-An AI-powered expense analysis web application that processes bank statement CSV files, automatically categorizes transactions, and generates financial insights with interactive dashboards.
+An **AI-powered expense analysis web application** that processes bank statement CSV files, automatically categorizes transactions, and generates financial insights with interactive dashboards.
 
 Built using **Python, Streamlit, Pandas, and Plotly**.
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
 - Upload bank statement CSV files  
 - Automatic transaction categorization  
@@ -24,35 +24,42 @@ Built using **Python, Streamlit, Pandas, and Plotly**.
 
 ---
 
-## 🖥️ Application Preview
+# 🖥️ Application Preview
 
-### Upload Bank Statement
+## Upload Bank Statement
+
 Upload your bank statement CSV to automatically analyze expenses.
 
-![Upload Interface](images/upload_interface.png)
-
-### Categorized Transactions
-Transactions are automatically categorized into categories like:
-- Food & Dining
-- Shopping & Groceries
-- Investments
-- Transport
-- Subscriptions
-- Transfers & Cash
-
-![Categorized Transactions](images/categorized_transactions.png)
-
-### Expense Dashboard
-
-Pie chart and bar chart visualizations show spending distribution across categories.
-
-![Expense Dashboard](images/expense_dashboard.png)
+<img src="./images/upload_interface.png" width="900">
 
 ---
 
-## 💡 AI Financial Insights
+## Categorized Transactions
 
-The system automatically generates financial insights such as:
+Transactions are automatically categorized into:
+
+- Food & Dining  
+- Shopping & Groceries  
+- Investments  
+- Transport  
+- Subscriptions  
+- Transfers & Cash  
+
+<img src="./images/categorized_transactions.png" width="900">
+
+---
+
+## Expense Dashboard
+
+Pie chart and bar chart visualizations show spending distribution across categories.
+
+<img src="./images/expense_dashboard.png" width="900">
+
+---
+
+# 💡 AI Financial Insights
+
+The system automatically generates insights such as:
 
 Total Spending and Highest Spending Category.
 
@@ -63,7 +70,7 @@ Most of your spending is on Investments.
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 | Technology | Usage |
 |------------|------|
@@ -74,52 +81,59 @@ Most of your spending is on Investments.
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
+```
 AI-Expense-Agent
 │
 ├── app.py
 ├── requirements.txt
-├── sample_data
-│   └── balanced_monthly_bank_statement.csv
+├── README.md
 │
-├── images
-│   ├── upload_interface.png
-│   ├── categorized_transactions.png
-│   └── expense_dashboard.png
-│
-└── README.md
+└── images
+    ├── upload_interface.png
+    ├── categorized_transactions.png
+    └── expense_dashboard.png
+```
 
 ---
 
-## ⚙️ Installation
+# ⚙️ Installation
 
 ### Clone the Repository
 
-git clone https://github.com/yourusername/AI-Expense-Agent.git  
+```
+git clone https://github.com/yourusername/AI-Expense-Agent.git
 cd AI-Expense-Agent
+```
 
 ### Install Dependencies
 
+```
 pip install -r requirements.txt
+```
 
 ### Run the Application
 
+```
 streamlit run app.py
+```
 
 ---
 
-## 📊 Example CSV Format
+# 📊 Example CSV Format
 
-Date,Description,Amount,Type  
-2025-01-01,Netflix/Autopay,649,Debit  
-2025-01-01,UPI/Merchant/Flipkart,3227.27,Debit  
-2025-01-02,Swiggy/UPI,242.76,Debit  
-2025-01-02,SIP/MutualFund/SBI_MF,5000,Debit  
+```
+Date,Description,Amount,Type
+2025-01-01,Netflix/Autopay,649,Debit
+2025-01-01,UPI/Merchant/Flipkart,3227.27,Debit
+2025-01-02,Swiggy/UPI,242.76,Debit
+2025-01-02,SIP/MutualFund/SBI_MF,5000,Debit
+```
 
 ---
 
-## 🔮 Future Improvements
+# 🔮 Future Improvements
 
 - Machine learning transaction classification  
 - Monthly expense prediction  
@@ -128,7 +142,7 @@ Date,Description,Amount,Type
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-Your Name  
+**Utkarsh**  
 AI & ML Student
